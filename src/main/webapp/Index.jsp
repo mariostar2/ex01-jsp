@@ -29,7 +29,7 @@
 	<hr>
 	<a href = "select">select page</a>
 	<br>
-	<a href = "p3.jsp">el표기법</a>
+	<a href = "p3.jsp">p3 이동</a>
 	<br>
 	<!-- 쿼리스트링  -->
 	<a href = "a.jsp?x=xxx">a.jsp로 이동</a>
