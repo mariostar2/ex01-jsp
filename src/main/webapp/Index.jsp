@@ -39,6 +39,8 @@
 	<a href ="login">로그인 페이지로 이동</a>
 	<br>
 	<a href ="member">맴버로 이동</a>
+	<br>
+	<a href = "eltest.jsp?id=aaa">EL 연습 페이지 파라미터 전송용 링크</a>
 </body>
 
 <style>

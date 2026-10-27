@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 
 
-@WebServlet("/member")
+@WebServlet("/Member")
 public class SessionFormServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
  
