@@ -32,8 +32,9 @@
 	<hr>
 	<header>
 		<div class="cotainer">
-			<a href="create">회원등록</a> <a href="memberselect">회원목록조회/수정</a> <a
-				href="moneylist">회원매출조회</a> <a href="index">홈으로</a>
+			<a href="create">회원등록</a>
+			<a href="memberselect">회원목록조회/수정</a>
+			<a href="moneylist">회원매출조회</a> <a href="index">홈으로</a>
 		</div>
 	</header>
 	<hr>
@@ -79,7 +80,7 @@
 /* 유효성 검사 */
 document.getElementById("createform").addEventListener("submit" ,(e)=>{
 	const formtarget = e.target;
-	//null 처리
+	//각 NAME 값을 담아서 유효성 체크 
 	const createRequired =  [
 		["custname", "회원 성명이 입력되지 않았습니다"],
 		["phone","휴대폰 번호가 입력되지 않았습니다"],

@@ -15,13 +15,13 @@ import domain.Member;
 public class CreateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
       private MemberDto dao =  new MemberDto();
-
+     //화면에 보일단
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setAttribute("custno", dao.autoNumber());
 		request.getRequestDispatcher("CreateMember.jsp").forward(request, response);
 	}
 
-	
+	//화면에는 안보임
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		request.setCharacterEncoding("UTF-8");

@@ -55,7 +55,7 @@
 			</tr>
 		</table>
 		<button type="submit" id="update">수정</button>
-		<!-- 컨텍스트 매핑  -->
+		<!-- el표현식   -->
 		<button type="button"
 			onclick="location.href='${pageContext.request.contextPath}/memberselect'">조회</button>
 	</form>
@@ -80,7 +80,6 @@
 		}
 		alert("회원 정보 수정이 완료 되었습니다");
 	 });
-	 
 	  </script>
 </body>
 </html>

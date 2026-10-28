@@ -47,7 +47,6 @@ public class MoneyDao {
 			con.close();
 			
 		}catch (Exception e) {
-			// TODO: handle exception
 		}
 		return memberlist;
 		
