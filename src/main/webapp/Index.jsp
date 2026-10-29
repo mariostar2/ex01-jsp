@@ -41,6 +41,17 @@
 	<a href ="member">맴버로 이동</a>
 	<br>
 	<a href = "eltest.jsp?id=aaa">EL 연습 페이지 파라미터 전송용 링크</a>
+	<br>
+	<a href = "send.jsp">액션태그 연습1</a>
+	<br>
+	<a href ="actionTagForm.jsp">사용자 관리자 관련 액션 태그 로그인 연습 1</a> -->
+	<br>
+	<a href="userbean.jsp">jstl bean 태그 학습(연습)</a>
+	<br>
+	<a href="dbcp_test.jsp">dbcp 연습</a>
+	<br>
+	<a href="dbcp/session_info.jsp">세션 유효시간 연습 </a>
+	<a href= "cookie/logincookie.jsp">쿠키 로그인 로그아웃 공지사항 연습 파일</a>
 </body>
 
 <style>
